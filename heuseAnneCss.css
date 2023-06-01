@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    background-color: rgba(240, 240, 240, 1);
+    color: #575757;
+  }
+  *,
+  *::after,
+  *::before {
+    box-sizing: border-box;
+  }
+
+  main {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .first-caract {
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 2px;
+    color: #a52a8c;
+  }
+
+  #app {
+    padding: 1em;
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+    height: max-content;
+    box-shadow: 0 3px 30px rgba(0, 0, 0, 0.083),
+      0 3px 30px rgba(0, 0, 0, 0.083);
+    border: 1px solid rgba(184, 184, 184, 0.624);
+  }
+
+  input {
+    margin: 0;
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #575757;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: all ease-in-out;
+    margin-bottom: 1rem !important;
+  }
+
+  input::placeholder {
+    font-family: "Courier New", Courier, monospace;
+  }
+  input:focus, select:focus,button:focus {
+    outline: none;
+  }
+  @media (min-width: 576px) {
+    #app {
+      max-width: 768px;
+    }
+  }
+
+  ul {
+    color: #575757;
+    list-style: none;
+    margin-left: 0;
+    padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+    border: 1px solid rgba(184, 184, 184, 0.624);
+  }
+  li {
+    margin-left: 0;
+    padding: 0;
+  }
+
+  select {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+    -moz-padding-start: calc(0.75rem - 3px);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #575757;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 16px 12px;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: all ease-in-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin-bottom: 1rem !important;
+    font-family: "Courier New", Courier, monospace;
+  }
+  button {
+    display: inline-block;
+    align-self: center;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background: linear-gradient(to right, #a52a8c, #e642cb);
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: all ease-in-out;
+  }
+
+  h3{
+      text-align: center;
+      padding: 0.75em 0;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .logo{
+      margin: 250px;
+      /*display: block;*/
+      text-align: center;
+      font-size: 3em;
+      font-weight: 800;
+      font-family: cursive;
+      text-shadow: 1px 3px 1px #a52a8c, 0 3px 1em #a5709c, 0 3px 0.2em #fc71e5;
+      color: rgb(187, 187, 187);
+      width: 80px;
+      height: 80px;
+      border-top: 4px solid #a52a8c;
+      border-bottom: 4px solid #a52a8c;
+      border-right: 4px solid #ffcff7;
+      border-left: 4px solid #ffcff7;
+      border-radius: 50%;
+      padding: 0.25rem;
+  }
